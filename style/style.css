@@ -49,12 +49,12 @@ nav {
     padding: 15px 10px;
 }
 
-.bannar-heading {
+.banner-heading {
     font-size: 600px;
 }
 
 .journey-heading {
-    font-size: 60px;
+    font-size: 70px;
     color: indigo;
     padding-right: 60px;
 
@@ -87,4 +87,14 @@ nav {
 .e-commerce li img {
     display: flex;
 
+}
+
+.continer {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+.section {
+    display: flex;
 }
