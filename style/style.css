@@ -1,3 +1,49 @@
 /* -------------------
 --------Font-------- */
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;700&display=swap');
+
+<script src="https://kit.fontawesome.com/600f3ebc11.js"crossorigin="anonymous"></script>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+
+}
+
+/* ------------------
+-------Nav bar------------ */
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.navigation-icon {
+    display: flex;
+
+}
+
+.navigation-icon li {
+    list-style: none;
+    margin: 10px;
+
+}
+
+.navigation-icon li a {
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: 600;
+    padding: 15px 10px;
+}
