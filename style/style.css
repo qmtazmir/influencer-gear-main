@@ -2,7 +2,8 @@
 --------Font-------- */
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;700&display=swap');
 
-<script src="https://kit.fontawesome.com/600f3ebc11.js"crossorigin="anonymous"></script>* {
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -46,4 +47,44 @@ nav {
     color: darkslategray;
     font-weight: 600;
     padding: 15px 10px;
+}
+
+.bannar-heading {
+    font-size: 600px;
+}
+
+.journey-heading {
+    font-size: 60px;
+    color: indigo;
+    padding-right: 60px;
+
+}
+
+.journey {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.influencer {
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-right: 80px;
+
+}
+
+.primary-buton {
+    font-size: 20px;
+    background-color: palevioletred;
+    border-radius: 60deg;
+    padding: 5px;
+}
+
+.e-commerce li {
+    list-style: none;
+}
+
+.e-commerce li img {
+    display: flex;
+
 }
