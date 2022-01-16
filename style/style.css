@@ -58,7 +58,7 @@ nav {
 .journey-heading {
     font-size: 60px;
     color: indigo;
-    padding-right: 60px;
+    padding-right: 50px;
 
 }
 
@@ -78,6 +78,7 @@ nav {
 
 .start {
     padding: 30px 30px;
+    text-align: justify;
 }
 
 .preebook {
