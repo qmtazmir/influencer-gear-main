@@ -82,13 +82,14 @@ nav {
 
 .preebook {
     text-decoration: none;
-    text-align: auto;
-    width: 120px;
+    /* text-align: auto; */
+    /* width: 120px; */
     font-size: 20px;
     background-color: #e91e63;
-    padding: 15x 40px;
-    border-radius: 30px;
-    word-spacing: 30px;
+    padding-right: 30px;
+    padding-left: 10px;
+    border-radius: 45px;
+    /* word-spacing: 10px; */
 }
 
 .camera {
@@ -131,6 +132,16 @@ nav {
 
 .product-titel {
     font-size: 30px;
+
+}
+
+.product-rating {
+    display: flex;
+}
+
+.filled {
+    color: #F9EE3E;
+    
 }
 
 .product-praice {
@@ -203,16 +214,14 @@ nav {
         flex-direction: column;
     }
 
-    .mobil-view {
-        display: list-item;
-    }
+
 
     .biusnes-ions {
         display: none;
     }
 
     .product-collection {
-        width: 300px;
+        grid-template-columns: 1;
 
     }
 
